@@ -1,7 +1,13 @@
-var sum = 0;
-for (var i = 1; i <= 1000; i++) {
-    if (i %5 === 0 && i % 8 === 0) {
-        sum += i;
+
+var a = 2154; 
+var b = 458; 
+
+var gcd;
+while (a != b) {
+    if (a > b) {
+        a = a - b;
+    } else 
+        b = b - a;
     }
-}
-console.log(" the sum of all numbers between 1 and 1000 which are divisible by both 5 and 8 are:", sum);
+gcd = a;
+console.log(gcd); 
