@@ -1,3 +1,3 @@
-let levelup = 5;
-levelup += 5;
-console.log(levelup);
+let powerLevel = 9001;
+powerLevel -= 100;
+console.log(powerLevel);
