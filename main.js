@@ -1,1 +1,2 @@
-console.log(Number.isInteger(2017));
+var favoriteFood = 'pizza';
+console.log(favoriteFood);
