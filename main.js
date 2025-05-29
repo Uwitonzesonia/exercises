@@ -1,2 +1,2 @@
-var numOfSlices = 8;
-console.log(8);
+var favoriteFood = 'pizza';
+console.log(favoriteFood);
