@@ -1,3 +1,3 @@
-let gainedDollar = 19;
-gainedDollar++;
-console.log(gainedDollar);
+let lostDollar = 19;
+lostDollar--;
+console.log(lostDollar);
