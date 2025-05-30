@@ -1,3 +1,3 @@
-let powerLevel = 9001;
-powerLevel -= 100;
-console.log(powerLevel);
+let gainedDollar = 19;
+gainedDollar++;
+console.log(gainedDollar);
