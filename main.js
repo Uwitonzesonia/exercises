@@ -1,3 +1,2 @@
-let lostDollar = 19;
-lostDollar--;
-console.log(lostDollar);
+let favoriteAnimal = 'ANIMAL';
+console.log('My favorite animal:' + favoriteAnimal);
