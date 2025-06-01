@@ -1,6 +1,6 @@
- function  multiply(a, b) {
-  const multiply = a * b;
-  return multiply;
+function sayHello( name, city, state ) {
+  const fullname = name.join(' ');
+  return` Hello, ${fullname}! welcome to ${city}, ${state}!`;
 }
 
 
