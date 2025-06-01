@@ -1,9 +1,11 @@
 function multiply(number) {
-  const digits = number.toString().length;
-  const multiplier = Math.pow(5, digits);
-  return number * multiplier;
+let numberOfDigits;
+  if (number === 0) {
+    numberOfDigits = 1;
+  } else {
+    numberOfDigits = String(Math.abs(number)).length;
+  }
+  const fiveToPowerOfDigits = Math.pow(5, numberOfDigits);
+  const result = number * fiveToPowerOfDigits ;
+  return result;
 }
-console.log(multiply(2));
-console.log(multiply(12));
-console.log(multiply(123));
-console.log(multiply(9876));
