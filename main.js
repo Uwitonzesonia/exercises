@@ -1,5 +1,5 @@
-var currentage = 14;
-var maximumage = 18;
-var amountperyear = 4000000;
-var totalamount = (maximumage - currentage) * amountperyear;
-console.log(`I will need ${totalamount} to last until i riped my old age of ${maximumage}.`); 
+var radius = 4 ;
+var circumference = Math.PI * 2 * radius;
+var area = radius * radius * Math.PI;
+console.log('Area is:', area);
+console.log('circumference is:', circumference);
