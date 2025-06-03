@@ -1,5 +1,6 @@
-var radius = 4 ;
-var circumference = Math.PI * 2 * radius;
-var area = radius * radius * Math.PI;
-console.log('Area is:', area);
-console.log('circumference is:', circumference);
+var celsius = 30;
+var celsiusInF = (celsius*9)/5 + 32;
+console.log(celsius + '°C is ' + celsiusInF + '°F');
+var fahrenheit = 20;
+var fahrenheitInC = ((fahrenheit - 32)*5)/9;
+console.log(fahrenheit + '°F is ' + fahrenheitInC + '°C');
