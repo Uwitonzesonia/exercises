@@ -1,4 +1,5 @@
-var birthYear = 1998;
-var futureYear = 1950;
-var Age = futureYear - birthYear;
-console.log('I will be' + Age + 'or' + (Age + 1));
+var currentage = 14;
+var maximumage = 18;
+var amountperyear = 4000000;
+var totalamount = (maximumage - currentage) * amountperyear;
+console.log(`I will need ${totalamount} to last until i riped my old age of ${maximumage}.`); 
