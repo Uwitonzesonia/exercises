@@ -1,6 +1,7 @@
-var celsius = 30;
-var celsiusInF = (celsius*9)/5 + 32;
-console.log(celsius + '°C is ' + celsiusInF + '°F');
-var fahrenheit = 20;
-var fahrenheitInC = ((fahrenheit - 32)*5)/9;
-console.log(fahrenheit + '°F is ' + fahrenheitInC + '°C');
+let arr = ['first', 'second', 'third'];
+let first = arr[0];
+let second = arr[1];
+let last = arr[arr.length -1];
+console.log(first);
+console.log(second);
+console.log(last);
