@@ -1,3 +1,4 @@
-var a = ['first', 'second'];
-a.push('third');
-console.log('a:', a);
+var a = ['first', 'second', 'third'];
+console.log('Original Array:', a);
+a.unshift('fourth');
+console.log('Modified Array:', a);
