@@ -1,6 +1,6 @@
-let wordCount = 4;
-if (wordCount){
-  console.log('Great! you have started your work');
+let favoritePhrase = 0;
+if (favoritePhrase) {
+  console.log('this string is definitely complete');
 } else {
-  console.log('Go! to work');
+console.log('this string is definitely empty');
 }
