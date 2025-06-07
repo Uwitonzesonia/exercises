@@ -1,5 +1,6 @@
-if(mood === 'sleepy' && tirednessLevel > 8) {
-  console.log('time to sleep');
+let wordCount = 4;
+if (wordCount){
+  console.log('Great! you have started your work');
 } else {
-  console.log('not bed time yet');
+  console.log('Go! to work');
 }
