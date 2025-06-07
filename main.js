@@ -1,4 +1,4 @@
-var a = ['first', 'second', 'third'];
-console.log('Original Array:', a);
-a.unshift('fourth');
-console.log('Modified Array:', a);
+var a = ['first', 'second', 'third', 'fourth'];
+let position = a.indexOf('second');
+console.log('a:', a);
+console.log('position:', position);
