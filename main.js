@@ -1,5 +1,4 @@
 var a = ['first', 'second', 'third', 'fourth', 'fifth'];
-let position = 1;
 let elementsToRemove = 2;
-a.splice(position, elementsToRemove);
+a.splice( elementsToRemove);
 console.log('Modified Array:', a);
