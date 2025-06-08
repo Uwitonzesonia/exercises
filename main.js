@@ -1,6 +1,3 @@
-const num = [4,5,6,7];
-let first = Num.find(myFunction);
-function myFunction(value ,index,array){
-    return value > 5;
-}
-console.log(first);
+
+const temp = [27, 28, 30, 40, 42, 35, 30];
+let pos = temp.findLastIndex(x => x > 40);
