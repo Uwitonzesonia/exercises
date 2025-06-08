@@ -1,4 +1,5 @@
-var a = ['first', 'second', 'third', 'fourth', 'fifth'];
-let elementsToRemove = 2;
-a.splice( elementsToRemove);
-console.log('Modified Array:', a);
+function reverse_number (num){
+    num = num + '';
+    return num.split("").reverse().join("");
+}
+console.log(Number(reverse_number(3456)));
