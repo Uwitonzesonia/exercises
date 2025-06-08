@@ -1,5 +1,3 @@
-function reverse_number (num){
-    num = num + '';
-    return num.split("").reverse().join("");
-}
-console.log(Number(reverse_number(3456)));
+const fruits = ["Apple", "Orange", "Apple", "Mango"];
+let position = fruits.indexOf("Apple") + 1;
+console.log("position of Apple is:",position);
