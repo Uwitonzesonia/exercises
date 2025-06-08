@@ -1,3 +1,6 @@
-const fruits = ["Apple", "Orange", "Apple", "Mango"];
-let position = fruits.indexOf("Apple") + 1;
-console.log("position of Apple is:",position);
+const num = [4,5,6,7];
+let first = Num.find(myFunction);
+function myFunction(value ,index,array){
+    return value > 5;
+}
+console.log(first);
