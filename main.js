@@ -1,10 +1,16 @@
-function betterThanAverage(classPoints, yourPoints) {
-  let total = 0;
-  for (let i = 0; i < classPoints.length; i++) {
-    total += classPoints[i];
+function basicOp(operation, value1, value2){
+  if (operation === '+'){
+    return value1 + value2;
+  } else if (operation === '-'){
+    return value1 - value2 ;
+  } else if (operation === '*'){
+    return value1 * value2 ;
+  } else if (operation === '/'){
+    return value1 / value2 ;
+  } else {
+    return 'Error: invalid operation';
   }
-  const average = total / classPoints.length;
-  return yourPoints > average;
 }
-console.log(betterThanAverage([40, 60, 70, 80, 90, 67], 85));
-console.log(betterThanAverage([45, 65, 67, 87, 98, 89], 90));
+console.log(basicOp('+', 43, 45));
+console.log(basicOp('-', 67, 87));
+console.log(basicOp('*', 43, 54));
