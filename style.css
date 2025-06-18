@@ -4,6 +4,18 @@
 <head>
   <title>Vacation World</title>
   <link href='style.css' rel='stylesheet'> </link> 
+  
+
+p {
+  color: green;
+}
+
+h1 {
+  color: maroon;
+}
+* {
+  font-family: verdana;
+}
 </head>
 
 <body>
