@@ -42,6 +42,17 @@ a:hover {
 
 }
 #publish-time {
-  color:gray;
+  color: gray;
   
+}
+h5 {
+  color: yellow;
+}
+
+.author-class {
+  color: pink;
+}
+
+#author-id {
+  color: cornflowerblue;
 }
