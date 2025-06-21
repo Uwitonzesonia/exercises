@@ -21,6 +21,6 @@ h1 {
 #article-title {
   font-family: cursive;
 }
-a[href*='beijing'] {
-  color: lightblue;
+a[href*='seoul'] {
+  color: lightpink;
 }
