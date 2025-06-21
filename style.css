@@ -37,14 +37,15 @@ a[href*='seoul'] {
 a:hover {
   color:darkorange;
 }
-.heading-background{
-  background-color: aqua;
 
+.heading-background {
+  background-color: aqua;
 }
+
 #publish-time {
-  color: gray;
-  
+  color: lightgray;
 }
+
 h5 {
   color: yellow;
 }
@@ -55,4 +56,12 @@ h5 {
 
 #author-id {
   color: cornflowerblue;
+}
+
+h2.destination {
+  font-family: Tahoma;
+}
+.description h5 {
+color: blueviolet;
+
 }
